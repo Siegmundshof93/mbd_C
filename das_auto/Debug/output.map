@@ -7,17 +7,17 @@ Archive member included to satisfy reference by file (symbol)
 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_aeabi_uldivmod.o)
                               Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o (__aeabi_uldivmod)
 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_fixunsdfsi.o)
-                              Src/main.o (__aeabi_d2uiz)
+                              Src/Ultrasonic.o (__aeabi_d2uiz)
 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivmoddi4.o)
                               /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(muldf3.o)
-                              Src/main.o (__aeabi_dmul)
+                              Src/Ultrasonic.o (__aeabi_dmul)
 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(subdf3.o)
                               /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_fixunsdfsi.o) (__aeabi_dsub)
 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(fixdfsi.o)
                               /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_fixunsdfsi.o) (__aeabi_d2iz)
 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(floatunsidf.o)
-                              Src/main.o (__aeabi_ui2d)
+                              Src/Ultrasonic.o (__aeabi_ui2d)
 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_arm_cmpdf2.o)
                               /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_fixunsdfsi.o) (__aeabi_dcmpge)
 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_clzsi2.o)
@@ -41,7 +41,7 @@ Archive member included to satisfy reference by file (symbol)
 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memset.o)
                               /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o (memset)
 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-sprintf.o)
-                              Src/main.o (sprintf)
+                              Src/Ultrasonic.o (sprintf)
 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-svfprintf.o)
                               /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-sprintf.o) (_svfprintf_r)
 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
@@ -74,7 +74,7 @@ errno               0x4               /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.
 uwTick              0x4               Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
 pFlash              0x18              Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
 htim3               0x3c              Src/main.o
-buf                 0xc               Src/main.o
+buf                 0xc               Src/Ultrasonic.o
 htim2               0x3c              Src/main.o
 huart2              0x80              Src/main.o
 
@@ -2167,17 +2167,195 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x57b Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.o
  .debug_macro   0x0000000000000000       0x44 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.o
  .debug_macro   0x0000000000000000      0x1a2 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.o
- .group         0x0000000000000000        0xc Src/main.o
- .group         0x0000000000000000        0xc Src/main.o
- .group         0x0000000000000000        0xc Src/main.o
- .group         0x0000000000000000        0xc Src/main.o
- .group         0x0000000000000000        0xc Src/main.o
- .group         0x0000000000000000        0xc Src/main.o
- .group         0x0000000000000000        0xc Src/main.o
- .group         0x0000000000000000        0xc Src/main.o
- .group         0x0000000000000000        0xc Src/main.o
- .group         0x0000000000000000        0xc Src/main.o
- .group         0x0000000000000000        0xc Src/main.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Motordrive.o
+ .text          0x0000000000000000        0x0 Src/Motordrive.o
+ .data          0x0000000000000000        0x0 Src/Motordrive.o
+ .bss           0x0000000000000000        0x0 Src/Motordrive.o
+ .debug_macro   0x0000000000000000      0xa4e Src/Motordrive.o
+ .debug_macro   0x0000000000000000       0x22 Src/Motordrive.o
+ .debug_macro   0x0000000000000000      0x174 Src/Motordrive.o
+ .debug_macro   0x0000000000000000       0xa1 Src/Motordrive.o
+ .debug_macro   0x0000000000000000       0x2e Src/Motordrive.o
+ .debug_macro   0x0000000000000000       0x28 Src/Motordrive.o
+ .debug_macro   0x0000000000000000       0xef Src/Motordrive.o
+ .debug_macro   0x0000000000000000       0x6a Src/Motordrive.o
+ .debug_macro   0x0000000000000000      0x1df Src/Motordrive.o
+ .debug_macro   0x0000000000000000       0x34 Src/Motordrive.o
+ .debug_macro   0x0000000000000000       0x26 Src/Motordrive.o
+ .debug_macro   0x0000000000000000      0x44f Src/Motordrive.o
+ .debug_macro   0x0000000000000000     0xa43e Src/Motordrive.o
+ .debug_macro   0x0000000000000000       0x3c Src/Motordrive.o
+ .debug_macro   0x0000000000000000     0x352c Src/Motordrive.o
+ .debug_macro   0x0000000000000000       0x4f Src/Motordrive.o
+ .debug_macro   0x0000000000000000      0x8e4 Src/Motordrive.o
+ .debug_macro   0x0000000000000000      0xbb4 Src/Motordrive.o
+ .debug_macro   0x0000000000000000      0x13f Src/Motordrive.o
+ .debug_macro   0x0000000000000000      0x1d1 Src/Motordrive.o
+ .debug_macro   0x0000000000000000      0x28e Src/Motordrive.o
+ .debug_macro   0x0000000000000000      0x1e9 Src/Motordrive.o
+ .debug_macro   0x0000000000000000      0x13e Src/Motordrive.o
+ .debug_macro   0x0000000000000000      0x4b5 Src/Motordrive.o
+ .debug_macro   0x0000000000000000      0x22c Src/Motordrive.o
+ .debug_macro   0x0000000000000000       0x5b Src/Motordrive.o
+ .debug_macro   0x0000000000000000       0xa5 Src/Motordrive.o
+ .debug_macro   0x0000000000000000      0x18d Src/Motordrive.o
+ .debug_macro   0x0000000000000000       0x16 Src/Motordrive.o
+ .debug_macro   0x0000000000000000      0x734 Src/Motordrive.o
+ .debug_macro   0x0000000000000000       0xfc Src/Motordrive.o
+ .debug_macro   0x0000000000000000      0x57b Src/Motordrive.o
+ .debug_macro   0x0000000000000000       0x44 Src/Motordrive.o
+ .debug_macro   0x0000000000000000      0x1a2 Src/Motordrive.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .group         0x0000000000000000        0xc Src/Ultrasonic.o
+ .text          0x0000000000000000        0x0 Src/Ultrasonic.o
+ .data          0x0000000000000000        0x0 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000      0xa4e Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x22 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x58 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x18 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x94 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x35 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x34 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000      0x174 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x57 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x58 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x1f Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x43 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x20 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000      0x18e Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000      0x330 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x10 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x35 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x22 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0xa1 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x2e Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x28 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0xef Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x6a Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000      0x1df Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x34 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x26 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000      0x44f Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000     0xa43e Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x3c Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000     0x352c Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x4f Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000      0x8e4 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000      0xbb4 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000      0x13f Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000      0x1d1 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000      0x28e Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000      0x1e9 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000      0x13e Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000      0x4b5 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000      0x22c Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x5b Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0xa5 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000      0x18d Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x16 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000      0x734 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0xfc Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000      0x57b Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x44 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000      0x1a2 Src/Ultrasonic.o
+ .debug_macro   0x0000000000000000       0x10 Src/Ultrasonic.o
  .group         0x0000000000000000        0xc Src/main.o
  .group         0x0000000000000000        0xc Src/main.o
  .group         0x0000000000000000        0xc Src/main.o
@@ -2230,6 +2408,8 @@ Discarded input sections
  .group         0x0000000000000000        0xc Src/main.o
  .group         0x0000000000000000        0xc Src/main.o
  .text          0x0000000000000000        0x0 Src/main.o
+ .data          0x0000000000000000        0x0 Src/main.o
+ .bss           0x0000000000000000        0x0 Src/main.o
  .text.Error_Handler
                 0x0000000000000000        0x2 Src/main.o
  .debug_macro   0x0000000000000000      0xa4e Src/main.o
@@ -2268,6 +2448,19 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x57b Src/main.o
  .debug_macro   0x0000000000000000       0x44 Src/main.o
  .debug_macro   0x0000000000000000      0x1a2 Src/main.o
+ .debug_macro   0x0000000000000000       0x18 Src/main.o
+ .debug_macro   0x0000000000000000       0x35 Src/main.o
+ .debug_macro   0x0000000000000000       0x34 Src/main.o
+ .debug_macro   0x0000000000000000       0x58 Src/main.o
+ .debug_macro   0x0000000000000000       0x1f Src/main.o
+ .debug_macro   0x0000000000000000       0x43 Src/main.o
+ .debug_macro   0x0000000000000000       0x20 Src/main.o
+ .debug_macro   0x0000000000000000      0x18e Src/main.o
+ .debug_macro   0x0000000000000000      0x330 Src/main.o
+ .debug_macro   0x0000000000000000       0x10 Src/main.o
+ .debug_macro   0x0000000000000000       0x35 Src/main.o
+ .debug_macro   0x0000000000000000       0x22 Src/main.o
+ .debug_macro   0x0000000000000000       0x10 Src/main.o
  .group         0x0000000000000000        0xc Src/stm32l0xx_hal_msp.o
  .group         0x0000000000000000        0xc Src/stm32l0xx_hal_msp.o
  .group         0x0000000000000000        0xc Src/stm32l0xx_hal_msp.o
@@ -2495,9 +2688,12 @@ Discarded input sections
  .text._execve  0x0000000000000000       0x10 Src/syscalls.o
  .debug_macro   0x0000000000000000      0xa4e Src/syscalls.o
  .debug_macro   0x0000000000000000       0x22 Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x58 Src/syscalls.o
  .debug_macro   0x0000000000000000       0x18 Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x94 Src/syscalls.o
  .debug_macro   0x0000000000000000       0x35 Src/syscalls.o
  .debug_macro   0x0000000000000000       0x34 Src/syscalls.o
+ .debug_macro   0x0000000000000000       0x57 Src/syscalls.o
  .debug_macro   0x0000000000000000      0x174 Src/syscalls.o
  .debug_macro   0x0000000000000000      0x330 Src/syscalls.o
  .debug_macro   0x0000000000000000       0x58 Src/syscalls.o
@@ -2506,19 +2702,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x20 Src/syscalls.o
  .debug_macro   0x0000000000000000      0x18e Src/syscalls.o
  .debug_macro   0x0000000000000000       0x35 Src/syscalls.o
- .debug_macro   0x0000000000000000       0x10 Src/syscalls.o
  .debug_macro   0x0000000000000000       0x6a Src/syscalls.o
- .debug_macro   0x0000000000000000       0x1c Src/syscalls.o
- .debug_macro   0x0000000000000000       0x52 Src/syscalls.o
- .debug_macro   0x0000000000000000       0x40 Src/syscalls.o
- .debug_macro   0x0000000000000000       0x10 Src/syscalls.o
- .debug_macro   0x0000000000000000       0x40 Src/syscalls.o
- .debug_macro   0x0000000000000000       0xd7 Src/syscalls.o
- .debug_macro   0x0000000000000000       0x1c Src/syscalls.o
- .debug_macro   0x0000000000000000       0x3d Src/syscalls.o
- .debug_macro   0x0000000000000000       0x10 Src/syscalls.o
- .debug_macro   0x0000000000000000       0x16 Src/syscalls.o
- .debug_macro   0x0000000000000000      0x16f Src/syscalls.o
  .group         0x0000000000000000        0xc Src/system_stm32l0xx.o
  .group         0x0000000000000000        0xc Src/system_stm32l0xx.o
  .group         0x0000000000000000        0xc Src/system_stm32l0xx.o
@@ -2736,6 +2920,8 @@ LOAD Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
 LOAD Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
 LOAD Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
 LOAD Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.o
+LOAD Src/Motordrive.o
+LOAD Src/Ultrasonic.o
 LOAD Src/main.o
 LOAD Src/stm32l0xx_hal_msp.o
 LOAD Src/stm32l0xx_it.o
@@ -2989,36 +3175,36 @@ LOAD /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux6
  .text.HAL_UARTEx_WakeupCallback
                 0x0000000008003090        0x2 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.o
                 0x0000000008003090                HAL_UARTEx_WakeupCallback
- *fill*         0x0000000008003092        0x2 
- .text.MX_GPIO_Init
-                0x0000000008003094       0x50 Src/main.o
- .text.MX_TIM2_Init
-                0x00000000080030e4       0x6c Src/main.o
- .text.MX_USART2_UART_Init
-                0x0000000008003150       0x30 Src/main.o
- .text.MX_TIM3_Init
-                0x0000000008003180       0x9c Src/main.o
- .text.delay    0x000000000800321c       0x14 Src/main.o
-                0x000000000800321c                delay
- .text.HCSR04_Read
-                0x0000000008003230       0x34 Src/main.o
-                0x0000000008003230                HCSR04_Read
- .text.PWM_GO   0x0000000008003264       0x20 Src/main.o
-                0x0000000008003264                PWM_GO
+ .text.PWM_GO   0x0000000008003092       0x20 Src/Motordrive.o
+                0x0000000008003092                PWM_GO
+ *fill*         0x00000000080030b2        0x2 
  .text.PWM_SPEED
-                0x0000000008003284      0x160 Src/main.o
-                0x0000000008003284                PWM_SPEED
- .text.HAL_TIM_IC_CaptureCallback
-                0x00000000080033e4      0x11c Src/main.o
-                0x00000000080033e4                HAL_TIM_IC_CaptureCallback
+                0x00000000080030b4      0x160 Src/Motordrive.o
+                0x00000000080030b4                PWM_SPEED
  .text.backwords
-                0x0000000008003500       0x80 Src/main.o
-                0x0000000008003500                backwords
+                0x0000000008003214       0x80 Src/Motordrive.o
+                0x0000000008003214                backwords
+ .text.delay    0x0000000008003294       0x14 Src/Ultrasonic.o
+                0x0000000008003294                delay
+ .text.HAL_TIM_IC_CaptureCallback
+                0x00000000080032a8      0x11c Src/Ultrasonic.o
+                0x00000000080032a8                HAL_TIM_IC_CaptureCallback
+ .text.HCSR04_Read
+                0x00000000080033c4       0x38 Src/Ultrasonic.o
+                0x00000000080033c4                HCSR04_Read
+ .text.MX_GPIO_Init
+                0x00000000080033fc       0x50 Src/main.o
+ .text.MX_TIM2_Init
+                0x000000000800344c       0x6c Src/main.o
+ .text.MX_USART2_UART_Init
+                0x00000000080034b8       0x30 Src/main.o
+ .text.MX_TIM3_Init
+                0x00000000080034e8       0x9c Src/main.o
  .text.SystemClock_Config
-                0x0000000008003580       0x78 Src/main.o
-                0x0000000008003580                SystemClock_Config
- .text.main     0x00000000080035f8       0x4c Src/main.o
-                0x00000000080035f8                main
+                0x0000000008003584       0x78 Src/main.o
+                0x0000000008003584                SystemClock_Config
+ .text.main     0x00000000080035fc       0x48 Src/main.o
+                0x00000000080035fc                main
  .text.HAL_MspInit
                 0x0000000008003644       0x1c Src/stm32l0xx_hal_msp.o
                 0x0000000008003644                HAL_MspInit
@@ -3183,7 +3369,7 @@ LOAD /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux6
  .rodata        0x00000000080041b0       0x40 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(muldf3.o)
  *(.rodata*)
  .rodata.str1.4
-                0x00000000080041f0        0xc Src/main.o
+                0x00000000080041f0        0xc Src/Ultrasonic.o
  .rodata._svfprintf_r.str1.1
                 0x00000000080041fc       0x11 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-svfprintf.o)
  .rodata._printf_i.str1.1
@@ -3223,42 +3409,41 @@ LOAD /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux6
                 [!provide]                        PROVIDE (__fini_array_end = .)
                 0x0000000008004240                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000       0x74 load address 0x0000000008004240
+.data           0x0000000020000000       0x70 load address 0x0000000008004240
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
  .data          0x0000000020000000        0x8 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
                 0x0000000020000000                uwTickFreq
                 0x0000000020000004                uwTickPrio
- .data          0x0000000020000008        0x1 Src/main.o
-                0x0000000020000008                point
- *fill*         0x0000000020000009        0x3 
- .data          0x000000002000000c        0x4 Src/system_stm32l0xx.o
-                0x000000002000000c                SystemCoreClock
+ .data          0x0000000020000008        0x4 Src/system_stm32l0xx.o
+                0x0000000020000008                SystemCoreClock
  *(.data*)
  .data._impure_ptr
-                0x0000000020000010        0x4 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
-                0x0000000020000010                _impure_ptr
+                0x000000002000000c        0x4 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
+                0x000000002000000c                _impure_ptr
  .data.impure_data
-                0x0000000020000014       0x60 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
-                0x0000000020000074                . = ALIGN (0x4)
-                0x0000000020000074                _edata = .
+                0x0000000020000010       0x60 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
+                0x0000000020000070                . = ALIGN (0x4)
+                0x0000000020000070                _edata = .
 
-.igot.plt       0x0000000020000074        0x0 load address 0x00000000080042b4
- .igot.plt      0x0000000020000074        0x0 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
-                0x0000000020000074                . = ALIGN (0x4)
+.igot.plt       0x0000000020000070        0x0 load address 0x00000000080042b0
+ .igot.plt      0x0000000020000070        0x0 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+                0x0000000020000070                . = ALIGN (0x4)
 
-.bss            0x0000000020000074      0x148 load address 0x00000000080042b4
-                0x0000000020000074                _sbss = .
-                0x0000000020000074                __bss_start__ = _sbss
+.bss            0x0000000020000070      0x14c load address 0x00000000080042b0
+                0x0000000020000070                _sbss = .
+                0x0000000020000070                __bss_start__ = _sbss
  *(.bss)
- .bss           0x0000000020000074       0x1c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
- .bss           0x0000000020000090       0x10 Src/main.o
-                0x0000000020000090                Distance
-                0x0000000020000091                Is_First_Captured
-                0x0000000020000094                IC_Val1
-                0x0000000020000098                IC_Val2
-                0x000000002000009c                Difference
+ .bss           0x0000000020000070       0x1c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+ .bss           0x000000002000008c       0x12 Src/Ultrasonic.o
+                0x000000002000008c                Is_First_Captured
+                0x0000000020000090                IC_Val1
+                0x0000000020000094                IC_Val2
+                0x0000000020000098                Difference
+                0x000000002000009c                Distance
+                0x000000002000009d                point
+ *fill*         0x000000002000009e        0x2 
  .bss           0x00000000200000a0        0x8 Src/syscalls.o
                 0x00000000200000a4                __env
  *(.bss*)
@@ -3271,9 +3456,10 @@ LOAD /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux6
  *(COMMON)
  COMMON         0x00000000200000b0        0x4 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
                 0x00000000200000b0                uwTick
- COMMON         0x00000000200000b4      0x104 Src/main.o
-                0x00000000200000b4                htim3
-                0x00000000200000f0                buf
+ COMMON         0x00000000200000b4        0xc Src/Ultrasonic.o
+                0x00000000200000b4                buf
+ COMMON         0x00000000200000c0       0xf8 Src/main.o
+                0x00000000200000c0                htim3
                 0x00000000200000fc                htim2
                 0x0000000020000138                huart2
  COMMON         0x00000000200001b8        0x4 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-reent.o)
@@ -3283,7 +3469,7 @@ LOAD /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux6
                 0x00000000200001bc                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x00000000200001bc      0x604 load address 0x00000000080042b4
+                0x00000000200001bc      0x604 load address 0x00000000080042b0
                 0x00000000200001c0                . = ALIGN (0x8)
  *fill*         0x00000000200001bc        0x4 
                 0x00000000200001c0                PROVIDE (end = .)
@@ -3327,86 +3513,90 @@ LOAD /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux6
  .ARM.attributes
                 0x000000000000020c       0x32 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.o
  .ARM.attributes
-                0x000000000000023e       0x32 Src/main.o
+                0x000000000000023e       0x32 Src/Motordrive.o
  .ARM.attributes
-                0x0000000000000270       0x32 Src/stm32l0xx_hal_msp.o
+                0x0000000000000270       0x32 Src/Ultrasonic.o
  .ARM.attributes
-                0x00000000000002a2       0x32 Src/stm32l0xx_it.o
+                0x00000000000002a2       0x32 Src/main.o
  .ARM.attributes
-                0x00000000000002d4       0x32 Src/syscalls.o
+                0x00000000000002d4       0x32 Src/stm32l0xx_hal_msp.o
  .ARM.attributes
-                0x0000000000000306       0x32 Src/system_stm32l0xx.o
+                0x0000000000000306       0x32 Src/stm32l0xx_it.o
  .ARM.attributes
-                0x0000000000000338       0x22 startup/startup_stm32l073xx.o
+                0x0000000000000338       0x32 Src/syscalls.o
  .ARM.attributes
-                0x000000000000035a       0x1e /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+                0x000000000000036a       0x32 Src/system_stm32l0xx.o
  .ARM.attributes
-                0x0000000000000378       0x1e /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
+                0x000000000000039c       0x22 startup/startup_stm32l073xx.o
  .ARM.attributes
-                0x0000000000000396       0x1e /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_aeabi_uldivmod.o)
+                0x00000000000003be       0x1e /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
  .ARM.attributes
-                0x00000000000003b4       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_fixunsdfsi.o)
+                0x00000000000003dc       0x1e /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x00000000000003e0       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivmoddi4.o)
+                0x00000000000003fa       0x1e /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x000000000000040c       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(muldf3.o)
+                0x0000000000000418       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_fixunsdfsi.o)
  .ARM.attributes
-                0x0000000000000438       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(subdf3.o)
+                0x0000000000000444       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivmoddi4.o)
  .ARM.attributes
-                0x0000000000000464       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(fixdfsi.o)
+                0x0000000000000470       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(muldf3.o)
  .ARM.attributes
-                0x0000000000000490       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(floatunsidf.o)
+                0x000000000000049c       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(subdf3.o)
  .ARM.attributes
-                0x00000000000004bc       0x1e /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_arm_cmpdf2.o)
+                0x00000000000004c8       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(fixdfsi.o)
  .ARM.attributes
-                0x00000000000004da       0x1e /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_clzsi2.o)
+                0x00000000000004f4       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(floatunsidf.o)
  .ARM.attributes
-                0x00000000000004f8       0x1e /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_clzdi2.o)
+                0x0000000000000520       0x1e /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_arm_cmpdf2.o)
  .ARM.attributes
-                0x0000000000000516       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(eqdf2.o)
+                0x000000000000053e       0x1e /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_clzsi2.o)
  .ARM.attributes
-                0x0000000000000542       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(gedf2.o)
+                0x000000000000055c       0x1e /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_clzdi2.o)
  .ARM.attributes
-                0x000000000000056e       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(ledf2.o)
+                0x000000000000057a       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(eqdf2.o)
  .ARM.attributes
-                0x000000000000059a       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-errno.o)
+                0x00000000000005a6       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(gedf2.o)
  .ARM.attributes
-                0x00000000000005c6       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
+                0x00000000000005d2       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(ledf2.o)
  .ARM.attributes
-                0x00000000000005f2       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
+                0x00000000000005fe       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-errno.o)
  .ARM.attributes
-                0x000000000000061e       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memset.o)
+                0x000000000000062a       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x000000000000064a       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-sprintf.o)
+                0x0000000000000656       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
  .ARM.attributes
-                0x0000000000000676       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0000000000000682       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memset.o)
  .ARM.attributes
-                0x00000000000006a2       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00000000000006ae       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-sprintf.o)
  .ARM.attributes
-                0x00000000000006ce       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memchr-stub.o)
+                0x00000000000006da       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-svfprintf.o)
  .ARM.attributes
-                0x00000000000006fa       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memcpy-stub.o)
+                0x0000000000000706       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
  .ARM.attributes
-                0x0000000000000726       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memmove.o)
+                0x0000000000000732       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memchr-stub.o)
  .ARM.attributes
-                0x0000000000000752       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-freer.o)
+                0x000000000000075e       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x000000000000077e       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-mallocr.o)
+                0x000000000000078a       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memmove.o)
  .ARM.attributes
-                0x00000000000007aa       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-reallocr.o)
+                0x00000000000007b6       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-freer.o)
  .ARM.attributes
-                0x00000000000007d6       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-sbrkr.o)
+                0x00000000000007e2       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-mallocr.o)
  .ARM.attributes
-                0x0000000000000802       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-mlock.o)
+                0x000000000000080e       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-reallocr.o)
  .ARM.attributes
-                0x000000000000082e       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-msizer.o)
+                0x000000000000083a       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x000000000000085a       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-reent.o)
+                0x0000000000000866       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-mlock.o)
  .ARM.attributes
-                0x0000000000000886       0x1e /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
+                0x0000000000000892       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-msizer.o)
+ .ARM.attributes
+                0x00000000000008be       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-reent.o)
+ .ARM.attributes
+                0x00000000000008ea       0x1e /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
 OUTPUT(das_auto.elf elf32-littlearm)
 
-.debug_info     0x0000000000000000     0xe3f8
+.debug_info     0x0000000000000000    0x10236
  .debug_info    0x0000000000000000      0x941 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
  .debug_info    0x0000000000000941      0x9de Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
  .debug_info    0x000000000000131f      0x860 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
@@ -3417,14 +3607,16 @@ OUTPUT(das_auto.elf elf32-littlearm)
  .debug_info    0x0000000000006915      0x6d4 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
  .debug_info    0x0000000000006fe9     0x1b6a Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
  .debug_info    0x0000000000008b53      0x9c9 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.o
- .debug_info    0x000000000000951c     0x226c Src/main.o
- .debug_info    0x000000000000b788      0xf01 Src/stm32l0xx_hal_msp.o
- .debug_info    0x000000000000c689      0x99c Src/stm32l0xx_it.o
- .debug_info    0x000000000000d025      0xfd3 Src/syscalls.o
- .debug_info    0x000000000000dff8      0x3de Src/system_stm32l0xx.o
- .debug_info    0x000000000000e3d6       0x22 startup/startup_stm32l073xx.o
+ .debug_info    0x000000000000951c     0x1376 Src/Motordrive.o
+ .debug_info    0x000000000000a892     0x1143 Src/Ultrasonic.o
+ .debug_info    0x000000000000b9d5     0x1bf1 Src/main.o
+ .debug_info    0x000000000000d5c6      0xf01 Src/stm32l0xx_hal_msp.o
+ .debug_info    0x000000000000e4c7      0x99c Src/stm32l0xx_it.o
+ .debug_info    0x000000000000ee63      0xfd3 Src/syscalls.o
+ .debug_info    0x000000000000fe36      0x3de Src/system_stm32l0xx.o
+ .debug_info    0x0000000000010214       0x22 startup/startup_stm32l073xx.o
 
-.debug_abbrev   0x0000000000000000     0x2075
+.debug_abbrev   0x0000000000000000     0x24d2
  .debug_abbrev  0x0000000000000000      0x252 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
  .debug_abbrev  0x0000000000000252      0x24c Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
  .debug_abbrev  0x000000000000049e      0x1fb Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
@@ -3435,12 +3627,14 @@ OUTPUT(das_auto.elf elf32-littlearm)
  .debug_abbrev  0x0000000000000f06      0x1ab Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
  .debug_abbrev  0x00000000000010b1      0x25c Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
  .debug_abbrev  0x000000000000130d      0x235 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.o
- .debug_abbrev  0x0000000000001542      0x38f Src/main.o
- .debug_abbrev  0x00000000000018d1      0x21d Src/stm32l0xx_hal_msp.o
- .debug_abbrev  0x0000000000001aee      0x176 Src/stm32l0xx_it.o
- .debug_abbrev  0x0000000000001c64      0x2d4 Src/syscalls.o
- .debug_abbrev  0x0000000000001f38      0x12b Src/system_stm32l0xx.o
- .debug_abbrev  0x0000000000002063       0x12 startup/startup_stm32l073xx.o
+ .debug_abbrev  0x0000000000001542      0x25c Src/Motordrive.o
+ .debug_abbrev  0x000000000000179e      0x2b2 Src/Ultrasonic.o
+ .debug_abbrev  0x0000000000001a50      0x2de Src/main.o
+ .debug_abbrev  0x0000000000001d2e      0x21d Src/stm32l0xx_hal_msp.o
+ .debug_abbrev  0x0000000000001f4b      0x176 Src/stm32l0xx_it.o
+ .debug_abbrev  0x00000000000020c1      0x2d4 Src/syscalls.o
+ .debug_abbrev  0x0000000000002395      0x12b Src/system_stm32l0xx.o
+ .debug_abbrev  0x00000000000024c0       0x12 startup/startup_stm32l073xx.o
 
 .debug_loc      0x0000000000000000     0x8232
  .debug_loc     0x0000000000000000      0x188 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
@@ -3453,12 +3647,13 @@ OUTPUT(das_auto.elf elf32-littlearm)
  .debug_loc     0x00000000000059a4       0xc7 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
  .debug_loc     0x0000000000005a6b     0x1b0f Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
  .debug_loc     0x000000000000757a      0x34c Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.o
- .debug_loc     0x00000000000078c6      0x2ec Src/main.o
+ .debug_loc     0x00000000000078c6      0x294 Src/Motordrive.o
+ .debug_loc     0x0000000000007b5a       0x58 Src/Ultrasonic.o
  .debug_loc     0x0000000000007bb2      0x119 Src/stm32l0xx_hal_msp.o
  .debug_loc     0x0000000000007ccb      0x3c5 Src/syscalls.o
  .debug_loc     0x0000000000008090      0x1a2 Src/system_stm32l0xx.o
 
-.debug_aranges  0x0000000000000000      0xbf8
+.debug_aranges  0x0000000000000000      0xc28
  .debug_aranges
                 0x0000000000000000      0x110 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
  .debug_aranges
@@ -3480,19 +3675,23 @@ OUTPUT(das_auto.elf elf32-littlearm)
  .debug_aranges
                 0x0000000000000970       0x60 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.o
  .debug_aranges
-                0x00000000000009d0       0x80 Src/main.o
+                0x00000000000009d0       0x30 Src/Motordrive.o
  .debug_aranges
-                0x0000000000000a50       0x58 Src/stm32l0xx_hal_msp.o
+                0x0000000000000a00       0x30 Src/Ultrasonic.o
  .debug_aranges
-                0x0000000000000aa8       0x50 Src/stm32l0xx_it.o
+                0x0000000000000a30       0x50 Src/main.o
  .debug_aranges
-                0x0000000000000af8       0xb0 Src/syscalls.o
+                0x0000000000000a80       0x58 Src/stm32l0xx_hal_msp.o
  .debug_aranges
-                0x0000000000000ba8       0x28 Src/system_stm32l0xx.o
+                0x0000000000000ad8       0x50 Src/stm32l0xx_it.o
  .debug_aranges
-                0x0000000000000bd0       0x28 startup/startup_stm32l073xx.o
+                0x0000000000000b28       0xb0 Src/syscalls.o
+ .debug_aranges
+                0x0000000000000bd8       0x28 Src/system_stm32l0xx.o
+ .debug_aranges
+                0x0000000000000c00       0x28 startup/startup_stm32l073xx.o
 
-.debug_ranges   0x0000000000000000      0xba8
+.debug_ranges   0x0000000000000000      0xbb8
  .debug_ranges  0x0000000000000000      0x100 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
  .debug_ranges  0x0000000000000100       0xc8 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
  .debug_ranges  0x00000000000001c8       0x70 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
@@ -3503,14 +3702,16 @@ OUTPUT(das_auto.elf elf32-littlearm)
  .debug_ranges  0x0000000000000770       0x18 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
  .debug_ranges  0x0000000000000788      0x1e8 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
  .debug_ranges  0x0000000000000970       0x50 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.o
- .debug_ranges  0x00000000000009c0       0x88 Src/main.o
- .debug_ranges  0x0000000000000a48       0x48 Src/stm32l0xx_hal_msp.o
- .debug_ranges  0x0000000000000a90       0x40 Src/stm32l0xx_it.o
- .debug_ranges  0x0000000000000ad0       0xa0 Src/syscalls.o
- .debug_ranges  0x0000000000000b70       0x18 Src/system_stm32l0xx.o
- .debug_ranges  0x0000000000000b88       0x20 startup/startup_stm32l073xx.o
+ .debug_ranges  0x00000000000009c0       0x20 Src/Motordrive.o
+ .debug_ranges  0x00000000000009e0       0x38 Src/Ultrasonic.o
+ .debug_ranges  0x0000000000000a18       0x40 Src/main.o
+ .debug_ranges  0x0000000000000a58       0x48 Src/stm32l0xx_hal_msp.o
+ .debug_ranges  0x0000000000000aa0       0x40 Src/stm32l0xx_it.o
+ .debug_ranges  0x0000000000000ae0       0xa0 Src/syscalls.o
+ .debug_ranges  0x0000000000000b80       0x18 Src/system_stm32l0xx.o
+ .debug_ranges  0x0000000000000b98       0x20 startup/startup_stm32l073xx.o
 
-.debug_macro    0x0000000000000000    0x15551
+.debug_macro    0x0000000000000000    0x159d0
  .debug_macro   0x0000000000000000      0x1dc Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
  .debug_macro   0x00000000000001dc      0xa4e Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
  .debug_macro   0x0000000000000c2a       0xa1 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
@@ -3557,57 +3758,60 @@ OUTPUT(das_auto.elf elf32-littlearm)
  .debug_macro   0x000000000001329d      0x1b8 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
  .debug_macro   0x0000000000013455      0x1e3 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
  .debug_macro   0x0000000000013638      0x1b8 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.o
- .debug_macro   0x00000000000137f0      0x332 Src/main.o
- .debug_macro   0x0000000000013b22       0x1c Src/main.o
- .debug_macro   0x0000000000013b3e       0x5e Src/main.o
- .debug_macro   0x0000000000013b9c       0x18 Src/main.o
- .debug_macro   0x0000000000013bb4       0x35 Src/main.o
- .debug_macro   0x0000000000013be9       0x34 Src/main.o
- .debug_macro   0x0000000000013c1d       0x16 Src/main.o
- .debug_macro   0x0000000000013c33       0x35 Src/main.o
- .debug_macro   0x0000000000013c68      0x330 Src/main.o
- .debug_macro   0x0000000000013f98       0x10 Src/main.o
- .debug_macro   0x0000000000013fa8       0x58 Src/main.o
- .debug_macro   0x0000000000014000       0x1f Src/main.o
- .debug_macro   0x000000000001401f       0x43 Src/main.o
- .debug_macro   0x0000000000014062       0x20 Src/main.o
- .debug_macro   0x0000000000014082      0x18e Src/main.o
- .debug_macro   0x0000000000014210       0x10 Src/main.o
- .debug_macro   0x0000000000014220       0x1c Src/main.o
- .debug_macro   0x000000000001423c       0x52 Src/main.o
- .debug_macro   0x000000000001428e       0x40 Src/main.o
- .debug_macro   0x00000000000142ce       0x10 Src/main.o
- .debug_macro   0x00000000000142de       0x40 Src/main.o
- .debug_macro   0x000000000001431e       0xd7 Src/main.o
- .debug_macro   0x00000000000143f5       0x1c Src/main.o
- .debug_macro   0x0000000000014411       0x3d Src/main.o
- .debug_macro   0x000000000001444e       0x16 Src/main.o
- .debug_macro   0x0000000000014464      0x16f Src/main.o
- .debug_macro   0x00000000000145d3       0x22 Src/main.o
- .debug_macro   0x00000000000145f5      0x1c7 Src/stm32l0xx_hal_msp.o
- .debug_macro   0x00000000000147bc      0x1d1 Src/stm32l0xx_it.o
- .debug_macro   0x000000000001498d      0x243 Src/syscalls.o
- .debug_macro   0x0000000000014bd0       0x58 Src/syscalls.o
- .debug_macro   0x0000000000014c28       0x94 Src/syscalls.o
- .debug_macro   0x0000000000014cbc       0x57 Src/syscalls.o
- .debug_macro   0x0000000000014d13       0x10 Src/syscalls.o
- .debug_macro   0x0000000000014d23       0x10 Src/syscalls.o
- .debug_macro   0x0000000000014d33       0x10 Src/syscalls.o
- .debug_macro   0x0000000000014d43       0x35 Src/syscalls.o
- .debug_macro   0x0000000000014d78      0x122 Src/syscalls.o
- .debug_macro   0x0000000000014e9a       0x16 Src/syscalls.o
- .debug_macro   0x0000000000014eb0       0x16 Src/syscalls.o
- .debug_macro   0x0000000000014ec6       0x29 Src/syscalls.o
- .debug_macro   0x0000000000014eef       0x10 Src/syscalls.o
- .debug_macro   0x0000000000014eff      0x241 Src/syscalls.o
- .debug_macro   0x0000000000015140       0x1c Src/syscalls.o
- .debug_macro   0x000000000001515c       0x10 Src/syscalls.o
- .debug_macro   0x000000000001516c      0x189 Src/syscalls.o
- .debug_macro   0x00000000000152f5       0x16 Src/syscalls.o
- .debug_macro   0x000000000001530b       0x88 Src/syscalls.o
- .debug_macro   0x0000000000015393      0x1be Src/system_stm32l0xx.o
+ .debug_macro   0x00000000000137f0      0x286 Src/Motordrive.o
+ .debug_macro   0x0000000000013a76       0x58 Src/Motordrive.o
+ .debug_macro   0x0000000000013ace       0x18 Src/Motordrive.o
+ .debug_macro   0x0000000000013ae6       0x94 Src/Motordrive.o
+ .debug_macro   0x0000000000013b7a       0x35 Src/Motordrive.o
+ .debug_macro   0x0000000000013baf       0x34 Src/Motordrive.o
+ .debug_macro   0x0000000000013be3       0x57 Src/Motordrive.o
+ .debug_macro   0x0000000000013c3a       0x58 Src/Motordrive.o
+ .debug_macro   0x0000000000013c92       0x1f Src/Motordrive.o
+ .debug_macro   0x0000000000013cb1       0x43 Src/Motordrive.o
+ .debug_macro   0x0000000000013cf4       0x20 Src/Motordrive.o
+ .debug_macro   0x0000000000013d14      0x18e Src/Motordrive.o
+ .debug_macro   0x0000000000013ea2      0x330 Src/Motordrive.o
+ .debug_macro   0x00000000000141d2       0x10 Src/Motordrive.o
+ .debug_macro   0x00000000000141e2       0x35 Src/Motordrive.o
+ .debug_macro   0x0000000000014217       0x22 Src/Motordrive.o
+ .debug_macro   0x0000000000014239       0x10 Src/Motordrive.o
+ .debug_macro   0x0000000000014249      0x286 Src/Ultrasonic.o
+ .debug_macro   0x00000000000144cf      0x29b Src/main.o
+ .debug_macro   0x000000000001476a       0x1c Src/main.o
+ .debug_macro   0x0000000000014786       0x5e Src/main.o
+ .debug_macro   0x00000000000147e4      0x1c7 Src/stm32l0xx_hal_msp.o
+ .debug_macro   0x00000000000149ab      0x1d1 Src/stm32l0xx_it.o
+ .debug_macro   0x0000000000014b7c      0x243 Src/syscalls.o
+ .debug_macro   0x0000000000014dbf       0x10 Src/syscalls.o
+ .debug_macro   0x0000000000014dcf       0x10 Src/syscalls.o
+ .debug_macro   0x0000000000014ddf       0x10 Src/syscalls.o
+ .debug_macro   0x0000000000014def       0x10 Src/syscalls.o
+ .debug_macro   0x0000000000014dff       0x1c Src/syscalls.o
+ .debug_macro   0x0000000000014e1b       0x52 Src/syscalls.o
+ .debug_macro   0x0000000000014e6d       0x40 Src/syscalls.o
+ .debug_macro   0x0000000000014ead       0x10 Src/syscalls.o
+ .debug_macro   0x0000000000014ebd       0x40 Src/syscalls.o
+ .debug_macro   0x0000000000014efd       0xd7 Src/syscalls.o
+ .debug_macro   0x0000000000014fd4       0x1c Src/syscalls.o
+ .debug_macro   0x0000000000014ff0       0x3d Src/syscalls.o
+ .debug_macro   0x000000000001502d       0x35 Src/syscalls.o
+ .debug_macro   0x0000000000015062      0x122 Src/syscalls.o
+ .debug_macro   0x0000000000015184       0x16 Src/syscalls.o
+ .debug_macro   0x000000000001519a       0x16 Src/syscalls.o
+ .debug_macro   0x00000000000151b0       0x29 Src/syscalls.o
+ .debug_macro   0x00000000000151d9       0x10 Src/syscalls.o
+ .debug_macro   0x00000000000151e9      0x241 Src/syscalls.o
+ .debug_macro   0x000000000001542a       0x1c Src/syscalls.o
+ .debug_macro   0x0000000000015446       0x10 Src/syscalls.o
+ .debug_macro   0x0000000000015456       0x10 Src/syscalls.o
+ .debug_macro   0x0000000000015466       0x16 Src/syscalls.o
+ .debug_macro   0x000000000001547c      0x16f Src/syscalls.o
+ .debug_macro   0x00000000000155eb      0x189 Src/syscalls.o
+ .debug_macro   0x0000000000015774       0x16 Src/syscalls.o
+ .debug_macro   0x000000000001578a       0x88 Src/syscalls.o
+ .debug_macro   0x0000000000015812      0x1be Src/system_stm32l0xx.o
 
-.debug_line     0x0000000000000000     0x9684
+.debug_line     0x0000000000000000     0xa503
  .debug_line    0x0000000000000000      0x937 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
  .debug_line    0x0000000000000937      0x8ba Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
  .debug_line    0x00000000000011f1      0x927 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
@@ -3618,14 +3822,16 @@ OUTPUT(das_auto.elf elf32-littlearm)
  .debug_line    0x0000000000004e37      0x767 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
  .debug_line    0x000000000000559e     0x1265 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
  .debug_line    0x0000000000006803      0x841 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.o
- .debug_line    0x0000000000007044      0x9ab Src/main.o
- .debug_line    0x00000000000079ef      0x7b6 Src/stm32l0xx_hal_msp.o
- .debug_line    0x00000000000081a5      0x759 Src/stm32l0xx_it.o
- .debug_line    0x00000000000088fe      0x5f2 Src/syscalls.o
- .debug_line    0x0000000000008ef0      0x711 Src/system_stm32l0xx.o
- .debug_line    0x0000000000009601       0x83 startup/startup_stm32l073xx.o
+ .debug_line    0x0000000000007044      0x7ea Src/Motordrive.o
+ .debug_line    0x000000000000782e      0x7dc Src/Ultrasonic.o
+ .debug_line    0x000000000000800a      0x864 Src/main.o
+ .debug_line    0x000000000000886e      0x7b6 Src/stm32l0xx_hal_msp.o
+ .debug_line    0x0000000000009024      0x759 Src/stm32l0xx_it.o
+ .debug_line    0x000000000000977d      0x5f2 Src/syscalls.o
+ .debug_line    0x0000000000009d6f      0x711 Src/system_stm32l0xx.o
+ .debug_line    0x000000000000a480       0x83 startup/startup_stm32l073xx.o
 
-.debug_str      0x0000000000000000    0x834a0
+.debug_str      0x0000000000000000    0x834f2
  .debug_str     0x0000000000000000    0x7b4a0 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
                                       0x7b8dd (size before relaxing)
  .debug_str     0x000000000007b4a0      0x2c2 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
@@ -3646,17 +3852,21 @@ OUTPUT(das_auto.elf elf32-littlearm)
                                       0x7bea6 (size before relaxing)
  .debug_str     0x000000000007e03f      0x185 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.o
                                       0x7b745 (size before relaxing)
- .debug_str     0x000000000007e1c4     0x3f66 Src/main.o
-                                      0x7fcc4 (size before relaxing)
- .debug_str     0x000000000008212a       0x2d Src/stm32l0xx_hal_msp.o
+ .debug_str     0x000000000007e1c4     0x2be0 Src/Motordrive.o
+                                      0x7e185 (size before relaxing)
+ .debug_str     0x0000000000080da4       0x61 Src/Ultrasonic.o
+                                      0x7e1e8 (size before relaxing)
+ .debug_str     0x0000000000080e05      0x11a Src/main.o
+                                      0x7e9d5 (size before relaxing)
+ .debug_str     0x0000000000080f1f       0x2d Src/stm32l0xx_hal_msp.o
                                       0x7bb1b (size before relaxing)
- .debug_str     0x0000000000082157       0x93 Src/stm32l0xx_it.o
+ .debug_str     0x0000000000080f4c       0x93 Src/stm32l0xx_it.o
                                       0x7b7e2 (size before relaxing)
- .debug_str     0x00000000000821ea     0x1223 Src/syscalls.o
+ .debug_str     0x0000000000080fdf     0x2480 Src/syscalls.o
                                        0x853a (size before relaxing)
- .debug_str     0x000000000008340d       0x64 Src/system_stm32l0xx.o
+ .debug_str     0x000000000008345f       0x64 Src/system_stm32l0xx.o
                                       0x7b233 (size before relaxing)
- .debug_str     0x0000000000083471       0x2f startup/startup_stm32l073xx.o
+ .debug_str     0x00000000000834c3       0x2f startup/startup_stm32l073xx.o
                                          0x60 (size before relaxing)
 
 .comment        0x0000000000000000       0x7f
@@ -3671,13 +3881,15 @@ OUTPUT(das_auto.elf elf32-littlearm)
  .comment       0x000000000000007f       0x80 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
  .comment       0x000000000000007f       0x80 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
  .comment       0x000000000000007f       0x80 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.o
+ .comment       0x000000000000007f       0x80 Src/Motordrive.o
+ .comment       0x000000000000007f       0x80 Src/Ultrasonic.o
  .comment       0x000000000000007f       0x80 Src/main.o
  .comment       0x000000000000007f       0x80 Src/stm32l0xx_hal_msp.o
  .comment       0x000000000000007f       0x80 Src/stm32l0xx_it.o
  .comment       0x000000000000007f       0x80 Src/syscalls.o
  .comment       0x000000000000007f       0x80 Src/system_stm32l0xx.o
 
-.debug_frame    0x0000000000000000     0x2294
+.debug_frame    0x0000000000000000     0x22b4
  .debug_frame   0x0000000000000000      0x22c Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
  .debug_frame   0x000000000000022c      0x114 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
  .debug_frame   0x0000000000000340      0x150 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
@@ -3688,34 +3900,36 @@ OUTPUT(das_auto.elf elf32-littlearm)
  .debug_frame   0x000000000000123c       0x40 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
  .debug_frame   0x000000000000127c      0x564 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
  .debug_frame   0x00000000000017e0       0xec Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.o
- .debug_frame   0x00000000000018cc      0x164 Src/main.o
- .debug_frame   0x0000000000001a30       0xc4 Src/stm32l0xx_hal_msp.o
- .debug_frame   0x0000000000001af4       0x98 Src/stm32l0xx_it.o
- .debug_frame   0x0000000000001b8c      0x19c Src/syscalls.o
- .debug_frame   0x0000000000001d28       0x38 Src/system_stm32l0xx.o
- .debug_frame   0x0000000000001d60       0x20 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
- .debug_frame   0x0000000000001d80       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_fixunsdfsi.o)
- .debug_frame   0x0000000000001dac       0x3c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivmoddi4.o)
- .debug_frame   0x0000000000001de8       0x3c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(muldf3.o)
- .debug_frame   0x0000000000001e24       0x3c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(subdf3.o)
- .debug_frame   0x0000000000001e60       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(fixdfsi.o)
- .debug_frame   0x0000000000001e8c       0x28 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(floatunsidf.o)
- .debug_frame   0x0000000000001eb4       0x38 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(eqdf2.o)
- .debug_frame   0x0000000000001eec       0x38 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(gedf2.o)
- .debug_frame   0x0000000000001f24       0x38 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(ledf2.o)
- .debug_frame   0x0000000000001f5c       0x20 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-errno.o)
- .debug_frame   0x0000000000001f7c       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
- .debug_frame   0x0000000000001fa8       0x20 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memset.o)
- .debug_frame   0x0000000000001fc8       0x48 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-sprintf.o)
- .debug_frame   0x0000000000002010       0x74 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-svfprintf.o)
- .debug_frame   0x0000000000002084       0x54 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_frame   0x00000000000020d8       0x20 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memchr-stub.o)
- .debug_frame   0x00000000000020f8       0x28 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x0000000000002120       0x28 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memmove.o)
- .debug_frame   0x0000000000002148       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-freer.o)
- .debug_frame   0x0000000000002174       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-mallocr.o)
- .debug_frame   0x00000000000021a0       0x30 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-reallocr.o)
- .debug_frame   0x00000000000021d0       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-sbrkr.o)
- .debug_frame   0x00000000000021fc       0x30 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-mlock.o)
- .debug_frame   0x000000000000222c       0x20 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-msizer.o)
- .debug_frame   0x000000000000224c       0x48 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-reent.o)
+ .debug_frame   0x00000000000018cc       0x68 Src/Motordrive.o
+ .debug_frame   0x0000000000001934       0x54 Src/Ultrasonic.o
+ .debug_frame   0x0000000000001988       0xc8 Src/main.o
+ .debug_frame   0x0000000000001a50       0xc4 Src/stm32l0xx_hal_msp.o
+ .debug_frame   0x0000000000001b14       0x98 Src/stm32l0xx_it.o
+ .debug_frame   0x0000000000001bac      0x19c Src/syscalls.o
+ .debug_frame   0x0000000000001d48       0x38 Src/system_stm32l0xx.o
+ .debug_frame   0x0000000000001d80       0x20 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000001da0       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_fixunsdfsi.o)
+ .debug_frame   0x0000000000001dcc       0x3c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000000000001e08       0x3c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(muldf3.o)
+ .debug_frame   0x0000000000001e44       0x3c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(subdf3.o)
+ .debug_frame   0x0000000000001e80       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(fixdfsi.o)
+ .debug_frame   0x0000000000001eac       0x28 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(floatunsidf.o)
+ .debug_frame   0x0000000000001ed4       0x38 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(eqdf2.o)
+ .debug_frame   0x0000000000001f0c       0x38 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(gedf2.o)
+ .debug_frame   0x0000000000001f44       0x38 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(ledf2.o)
+ .debug_frame   0x0000000000001f7c       0x20 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-errno.o)
+ .debug_frame   0x0000000000001f9c       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000001fc8       0x20 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000001fe8       0x48 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-sprintf.o)
+ .debug_frame   0x0000000000002030       0x74 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-svfprintf.o)
+ .debug_frame   0x00000000000020a4       0x54 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x00000000000020f8       0x20 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memchr-stub.o)
+ .debug_frame   0x0000000000002118       0x28 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000002140       0x28 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memmove.o)
+ .debug_frame   0x0000000000002168       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x0000000000002194       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00000000000021c0       0x30 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x00000000000021f0       0x2c /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x000000000000221c       0x30 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-mlock.o)
+ .debug_frame   0x000000000000224c       0x20 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x000000000000226c       0x48 /home/pvl/Privat/stm32/Ac6/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.17.0.201812190825/tools/compiler/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-reent.o)

@@ -1,5 +1,5 @@
-Src/main.o: ../Src/main.c \
- /home/pvl/Privat/stm32/Programmen/das_auto/Inc/main.h \
+Src/Ultrasonic.o: ../Src/Ultrasonic.c \
+ /home/pvl/Privat/stm32/Programmen/das_auto/Inc/das_auto.h \
  /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h \
  /home/pvl/Privat/stm32/Programmen/das_auto/Inc/stm32l0xx_hal_conf.h \
  /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h \
@@ -27,10 +27,9 @@ Src/main.o: ../Src/main.c \
  /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h \
  /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h \
  /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h \
- /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h \
- /home/pvl/Privat/stm32/Programmen/das_auto/Inc/das_auto.h
+ /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h
 
-/home/pvl/Privat/stm32/Programmen/das_auto/Inc/main.h:
+/home/pvl/Privat/stm32/Programmen/das_auto/Inc/das_auto.h:
 
 /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:
 
@@ -87,5 +86,3 @@ Src/main.o: ../Src/main.c \
 /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h:
 
 /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h:
-
-/home/pvl/Privat/stm32/Programmen/das_auto/Inc/das_auto.h:

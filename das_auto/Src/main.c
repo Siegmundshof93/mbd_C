@@ -20,14 +20,12 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include <stdio.h>
-#include <stdbool.h>
+#include "das_auto.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
 /* USER CODE END Includes */
-#define FALSE 0
-#define TRUE 1
+
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
 
@@ -65,152 +63,7 @@ static void MX_TIM3_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-void delay(uint16_t time)
-{
-	__HAL_TIM_SET_COUNTER(&htim2,0);
-	while(__HAL_TIM_GET_COUNTER(&htim2) < time);
-}
 
-uint32_t IC_Val1 = 0;
-uint32_t IC_Val2 = 0;
-uint32_t Difference = 0;
-uint8_t Is_First_Captured = 0;  // is the first value captured ?
-uint8_t Distance  = 0;
-uint8_t buf[12];
-bool point = TRUE;
-
-void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
-{
-	if (htim->Channel == HAL_TIM_ACTIVE_CHANNEL_1)  // if the interrupt source is channel1
-	{
-		if (Is_First_Captured==0) // if the first value is not captured
-		{
-			IC_Val1 = HAL_TIM_ReadCapturedValue(htim, TIM_CHANNEL_1); // read the first value
-			Is_First_Captured = 1;  // set the first captured as true
-			// Now change the polarity to falling edge
-			__HAL_TIM_SET_CAPTUREPOLARITY(htim, TIM_CHANNEL_1, TIM_INPUTCHANNELPOLARITY_FALLING);
-		}
-
-		else if (Is_First_Captured==1)   // if the first is already captured
-		{
-			IC_Val2 = HAL_TIM_ReadCapturedValue(htim, TIM_CHANNEL_1);  // read second value
-			__HAL_TIM_SET_COUNTER(htim, 0);  // reset the counter
-
-			if (IC_Val2 > IC_Val1)
-			{
-				Difference = IC_Val2-IC_Val1;
-			}
-
-			else if (IC_Val1 > IC_Val2)
-			{
-				Difference = (0xffff - IC_Val1) + IC_Val2;
-			}
-
-			Distance = Difference * .034/2;
-
-			PWM_SPEED(575, 600, 675, 700, 775, 800, 875, 900, 975, 1000);
-
-			sprintf((char*)buf, "%u.%u cm \r\n",
-								((unsigned int)Distance / 1),
-								((unsigned int)Distance % 1));
-			Is_First_Captured = 0; // set it back to false
-
-			// set polarity to rising edge
-			__HAL_TIM_SET_CAPTUREPOLARITY(htim, TIM_CHANNEL_1, TIM_INPUTCHANNELPOLARITY_RISING);
-			__HAL_TIM_DISABLE_IT(&htim2, TIM_IT_CC1);
-		}
-	}
-}
-
-void HCSR04_Read (void)
-{
-	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);  // pull the TRIG pin HIGH
-	delay(10);  // wait for 10 us
-	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);  // pull the TRIG pin low
-
-	__HAL_TIM_ENABLE_IT(&htim2, TIM_IT_CC1);
-}
-/**
-void PWM_init (uint16_t pulse) {
-	  HAL_TIM_Base_Start(&htim3);
-
-	HAL_TIM_PWM_Start(&htim3,TIM_CHANNEL_1);
-	HAL_TIM_PWM_Start(&htim3,TIM_CHANNEL_2);
-
-
-	__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, pulse); //PA6
-	__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, pulse); //PA7
-
-}
-**/
-void PWM_GO (uint16_t IN1, int FLAG1, uint16_t IN2, int FLAG2) {
-		  HAL_GPIO_WritePin(GPIOA,IN1, FLAG1); // in1 0x0400U left forvard
-		  HAL_GPIO_WritePin(GPIOA,IN2, FLAG2); // in4 0x0800U right forvard
-		  	  	  	  	  	  	  	  	  	   // in2 0x0200U right forvard
-		  	  	  	  	  	  	  	  	  	   // in3 0x1000U
-}
-
-void PWM_SPEED (int S1, int S12, int S2, int S22, int S3, int S32, int S4, int S42, int S5, int S52) {
-				   if (Distance < 10){
-
-					HAL_GPIO_WritePin(GPIOA,GPIO_PIN_5,GPIO_PIN_SET);
-					/**__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, S3); //PA6
-					__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, S3); //PA7
-					PWM_GO(0x0400U, 0, 0x0800U, 0);
-					PWM_GO(0x1000U, 1, 0x0200U, 1);**/
-					point = TRUE;
-
-
-
-				}  else if (Distance < 20){
-					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
-					__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, S1); //PA6
-					__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, S12); //PA7
-					PWM_GO(0x1000U, 0, 0x0200U, 0);
-					PWM_GO(0x0400U, 1, 0x0800U, 1);
-				} else if (Distance < 30){
-					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
-					__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, S2); //PA6
-					__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, S22);
-					PWM_GO(0x1000U, 0, 0x0200U, 0);
-					PWM_GO(0x0400U, 1, 0x0800U, 1);
-				} else if (Distance < 40){
-					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
-					__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, S3); //PA6
-					__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, S32);
-					PWM_GO(0x1000U, 0, 0x0200U, 0);
-					PWM_GO(0x0400U, 1, 0x0800U, 1);
-				} else if (Distance < 50){
-					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
-					__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, S4); //PA6
-					__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, S42);
-					PWM_GO(0x1000U, 0, 0x0200U, 0);
-					PWM_GO(0x0400U, 1, 0x0800U, 1);
-				} else {
-					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
-					__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, S5); //PA6
-					__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, S52); //PA7
-					PWM_GO(0x1000U, 0, 0x0200U, 0);
-					PWM_GO(0x0400U, 1, 0x0800U, 1);
-				}
-}
-/* USER CODE END 0 */
-void backwords() {
-	if (point == TRUE) {
-		__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 700); //PA6
-		__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, 700); //PA7
-		PWM_GO(0x0400U, 0, 0x0800U, 0);
-		PWM_GO(0x1000U, 1, 0x0200U, 1);
-		HAL_Delay(1000);
-		PWM_GO(0x1000U, 0, 0x0200U, 0);
-		HAL_Delay(200);
-		PWM_GO(0x0200U, 1, 0x0800U, 1);
-		HAL_Delay(350);
-		point = FALSE;
-	} else {
-		__NOP();
-	}
-}
 /**
   * @brief  The application entry point.
   * @retval int
@@ -257,8 +110,6 @@ int main(void)
   {
     /* USER CODE END WHILE */
 	  HCSR04_Read();
-	  HAL_Delay(20);
-	 // HAL_UART_Transmit(&huart2, buf, 10,10);
 	  backwords();
     /* USER CODE BEGIN 3 */
   }
@@ -524,3 +375,4 @@ void assert_failed(uint8_t *file, uint32_t line)
 #endif /* USE_FULL_ASSERT */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+

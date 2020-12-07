@@ -4,6 +4,8 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../Src/Motordrive.c \
+../Src/Ultrasonic.c \
 ../Src/main.c \
 ../Src/stm32l0xx_hal_msp.c \
 ../Src/stm32l0xx_it.c \
@@ -11,6 +13,8 @@ C_SRCS += \
 ../Src/system_stm32l0xx.c 
 
 OBJS += \
+./Src/Motordrive.o \
+./Src/Ultrasonic.o \
 ./Src/main.o \
 ./Src/stm32l0xx_hal_msp.o \
 ./Src/stm32l0xx_it.o \
@@ -18,6 +22,8 @@ OBJS += \
 ./Src/system_stm32l0xx.o 
 
 C_DEPS += \
+./Src/Motordrive.d \
+./Src/Ultrasonic.d \
 ./Src/main.d \
 ./Src/stm32l0xx_hal_msp.d \
 ./Src/stm32l0xx_it.d \
