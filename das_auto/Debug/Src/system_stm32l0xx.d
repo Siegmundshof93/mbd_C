@@ -21,8 +21,10 @@ Src/system_stm32l0xx.o: ../Src/system_stm32l0xx.c \
  /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h \
  /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h \
  /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h \
+ /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h \
  /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h \
  /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h \
+ /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h \
  /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h \
  /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h \
  /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h \
@@ -72,9 +74,13 @@ Src/system_stm32l0xx.o: ../Src/system_stm32l0xx.c \
 
 /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h:
 
+/home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h:
+
 /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h:
 
 /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h:
+
+/home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h:
 
 /home/pvl/Privat/stm32/Programmen/das_auto/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h:
 

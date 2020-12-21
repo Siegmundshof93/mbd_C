@@ -57,6 +57,8 @@ void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
 
 			PWM_SPEED(575, 600, 675, 700, 775, 800, 875, 900, 975, 1000);
 
+
+
 			sprintf((char*)buf, "%u.%u cm \r\n",
 								((unsigned int)Distance / 1),
 								((unsigned int)Distance % 1));
