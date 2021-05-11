@@ -1,0 +1,107 @@
+EESchema Schematic File Version 4
+LIBS:das_auto_schema-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Power_Management:ADP3338AKCZ3.3RL7 U2
+U 1 1 6059F145
+P 5600 3500
+F 0 "U2" H 5600 4015 50  0000 C CNN
+F 1 "ADP3338AKCZ3.3RL7" H 5600 3924 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5600 3500 50  0001 C CNN
+F 3 "" H 5600 3500 50  0001 C CNN
+	1    5600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR028
+U 1 1 6059F1A6
+P 5600 3800
+F 0 "#PWR028" H 5600 3550 50  0001 C CNN
+F 1 "GND" H 5605 3627 50  0000 C CNN
+F 2 "" H 5600 3800 50  0001 C CNN
+F 3 "" H 5600 3800 50  0001 C CNN
+	1    5600 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3800 5600 3700
+$Comp
+L Device:C_Small C12
+U 1 1 6059F1D5
+P 4800 3600
+F 0 "C12" H 4892 3646 50  0000 L CNN
+F 1 "1µF" H 4892 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4800 3600 50  0001 C CNN
+F 3 "~" H 4800 3600 50  0001 C CNN
+	1    4800 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3500 4800 3300
+Wire Wire Line
+	4800 3300 5200 3300
+$Comp
+L power:GND #PWR027
+U 1 1 6059F22B
+P 4800 3800
+F 0 "#PWR027" H 4800 3550 50  0001 C CNN
+F 1 "GND" H 4805 3627 50  0000 C CNN
+F 2 "" H 4800 3800 50  0001 C CNN
+F 3 "" H 4800 3800 50  0001 C CNN
+	1    4800 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3800 4800 3700
+$Comp
+L power:GND #PWR029
+U 1 1 6059F278
+P 6300 3800
+F 0 "#PWR029" H 6300 3550 50  0001 C CNN
+F 1 "GND" H 6305 3627 50  0000 C CNN
+F 2 "" H 6300 3800 50  0001 C CNN
+F 3 "" H 6300 3800 50  0001 C CNN
+	1    6300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C13
+U 1 1 6059F2D7
+P 6300 3600
+F 0 "C13" H 6392 3646 50  0000 L CNN
+F 1 "1µF" H 6392 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6300 3600 50  0001 C CNN
+F 3 "~" H 6300 3600 50  0001 C CNN
+	1    6300 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3800 6300 3700
+Wire Wire Line
+	6300 3500 6300 3300
+Wire Wire Line
+	6300 3300 6000 3300
+Wire Wire Line
+	4400 3300 4800 3300
+Connection ~ 4800 3300
+Text HLabel 4400 3300 0    50   Input ~ 0
+VIN
+Text HLabel 6700 3300 2    50   Output ~ 0
+VOUT
+Wire Wire Line
+	6700 3300 6300 3300
+Connection ~ 6300 3300
+$EndSCHEMATC
