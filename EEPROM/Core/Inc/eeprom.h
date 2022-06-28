@@ -1,4 +1,4 @@
-/*
+
 
 #ifndef __EEPROM
 
@@ -11,9 +11,10 @@
 #define EEPROM_DEV 0x50 << 1
 
 void eeprom_Write (uint16_t, uint8_t);
-void eeprom_Read (uint16_t, uint8_t);
-
+void eeprom_Read (uint16_t);
+void WriteArray(void);
+void readMemory(void);
 
 #endif
 
-*/
+

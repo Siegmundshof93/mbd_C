@@ -27,7 +27,8 @@ Core/Src/main.o: ../Core/Src/main.c \
  /home/pvl/Privat/stm32/Programmen/EEPROM/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
  /home/pvl/Privat/stm32/Programmen/EEPROM/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
  /home/pvl/Privat/stm32/Programmen/EEPROM/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
- /home/pvl/Privat/stm32/Programmen/EEPROM/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
+ /home/pvl/Privat/stm32/Programmen/EEPROM/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h \
+ /home/pvl/Privat/stm32/Programmen/EEPROM/Core/Inc/eeprom.h
 
 /home/pvl/Privat/stm32/Programmen/EEPROM/Core/Inc/main.h:
 
@@ -86,3 +87,5 @@ Core/Src/main.o: ../Core/Src/main.c \
 /home/pvl/Privat/stm32/Programmen/EEPROM/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:
 
 /home/pvl/Privat/stm32/Programmen/EEPROM/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h:
+
+/home/pvl/Privat/stm32/Programmen/EEPROM/Core/Inc/eeprom.h:

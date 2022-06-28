@@ -22,8 +22,9 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include <stdio.h>
-#include <string.h>
+#include "eeprom.h"
+
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -38,13 +39,25 @@
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
-	uint16_t device = 0x50 << 1;
+
 	uint16_t addrPointer1 = 0x0000;
 	uint16_t addrPointer2 = 0x0001;
 	uint16_t addrPointer3 = 0x0002;
-	uint8_t eepromData = 0xDA;
-	uint8_t eepromBuf[100];
-	uint8_t str[100];
+	uint16_t addrPointer4 = 0x0003;
+	uint16_t addrPointer5 = 0x0004;
+	uint16_t addrPointer6 = 0x0005;
+	uint16_t addrPointer7 = 0x0006;
+	uint16_t addrPointer8 = 0x0007;
+	uint16_t addrPointer9 = 0x0008;
+	uint16_t addrPointer10 = 0x0009;
+	uint16_t addrPointer11= 0x000A;
+	uint16_t addrPointer12 = 0x000B;
+	uint8_t eepromData = 0x22;
+
+
+
+
+
 
 /* USER CODE END PM */
 
@@ -68,22 +81,6 @@ static void MX_USART2_UART_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
-void eeprom_Write (uint16_t addr, uint8_t data)
-{
-	 HAL_I2C_Mem_Write(&hi2c1, device, addr,I2C_MEMADD_SIZE_16BIT, &data, 1, 100);
-}
-
-void eeprom_Read (uint16_t addr)
-{
-
-	HAL_I2C_Mem_Read(&hi2c1, device, addr,I2C_MEMADD_SIZE_16BIT, eepromBuf, 1, 100);
-
-	uint8_t val = eepromBuf[0];
-
-	int width =	sprintf(str, "0x%X\r\n", val);
-		HAL_UART_Transmit(&huart2, str, width, 0xFFFF);
-}
 
 
 
@@ -120,8 +117,7 @@ int main(void)
   MX_I2C1_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
- //eeprom_Write(addrPointer, eepromData);
- // HAL_I2C_Mem_Write(&hi2c1, device, addrPointer,I2C_MEMADD_SIZE_16BIT, &eepromData, 1, 100);
+
   //eeprom_Write(addrPointer1,eepromData);
   /* USER CODE END 2 */
 
@@ -129,14 +125,39 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  WriteArray();
+	  HAL_Delay(10);
+	  /*
+	  eeprom_Read(addrPointer1);
+	  HAL_Delay(10);
+	  eeprom_Read(addrPointer2);
+	  HAL_Delay(10);
+	  eeprom_Read(addrPointer3);
+	  HAL_Delay(10);
+	  eeprom_Read(addrPointer4);
+	  HAL_Delay(10);
+	  eeprom_Read(addrPointer5);
+	  HAL_Delay(10);
+	  eeprom_Read(addrPointer6);
+	  HAL_Delay(10);
+	  eeprom_Read(addrPointer7);
+	  HAL_Delay(10);
+	  eeprom_Read(addrPointer8);
+	  HAL_Delay(10);
+	  eeprom_Read(addrPointer9);
+	  HAL_Delay(10);
+	  eeprom_Read(addrPointer10);
+	  HAL_Delay(10);
+	  eeprom_Read(addrPointer11);
+	  HAL_Delay(10);
+	  eeprom_Read(addrPointer12);
 
-	 // HAL_I2C_Mem_Read(&hi2c1, device, addrPointer1,I2C_MEMADD_SIZE_16BIT, eepromBuf, 1, 100);
-eeprom_Read(addrPointer1);
-eeprom_Read(addrPointer2);
-eeprom_Read(addrPointer3);
-	//	int width =	sprintf(str, "0x%X\r\n", eepromBuf[0]);
-	//		HAL_UART_Transmit(&huart2, str, width, 0xFFFF);
-	  HAL_Delay(1000);
+	  */
+	  if (HAL_GPIO_ReadPin(GPIOC,GPIO_PIN_13) == 0){
+
+		  readMemory();
+	  }
+	  HAL_Delay(100);
 
 
     /* USER CODE END WHILE */
@@ -292,11 +313,18 @@ static void MX_GPIO_Init(void)
   GPIO_InitTypeDef GPIO_InitStruct = {0};
 
   /* GPIO Ports Clock Enable */
+  __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin : PC13 */
+  GPIO_InitStruct.Pin = GPIO_PIN_13;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
   /*Configure GPIO pin : PA5 */
   GPIO_InitStruct.Pin = GPIO_PIN_5;
