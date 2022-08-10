@@ -5,10 +5,14 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../Core/Src/Boot.c \
+../Core/Src/CanTx.c \
 ../Core/Src/LUX.c \
+../Core/Src/W25Q.c \
+../Core/Src/eeprom.c \
 ../Core/Src/frequencyRead.c \
 ../Core/Src/lm75.c \
 ../Core/Src/main.c \
+../Core/Src/pcf8563.c \
 ../Core/Src/stm32l4xx_hal_msp.c \
 ../Core/Src/stm32l4xx_it.c \
 ../Core/Src/syscalls.c \
@@ -16,10 +20,14 @@ C_SRCS += \
 
 OBJS += \
 ./Core/Src/Boot.o \
+./Core/Src/CanTx.o \
 ./Core/Src/LUX.o \
+./Core/Src/W25Q.o \
+./Core/Src/eeprom.o \
 ./Core/Src/frequencyRead.o \
 ./Core/Src/lm75.o \
 ./Core/Src/main.o \
+./Core/Src/pcf8563.o \
 ./Core/Src/stm32l4xx_hal_msp.o \
 ./Core/Src/stm32l4xx_it.o \
 ./Core/Src/syscalls.o \
@@ -27,10 +35,14 @@ OBJS += \
 
 C_DEPS += \
 ./Core/Src/Boot.d \
+./Core/Src/CanTx.d \
 ./Core/Src/LUX.d \
+./Core/Src/W25Q.d \
+./Core/Src/eeprom.d \
 ./Core/Src/frequencyRead.d \
 ./Core/Src/lm75.d \
 ./Core/Src/main.d \
+./Core/Src/pcf8563.d \
 ./Core/Src/stm32l4xx_hal_msp.d \
 ./Core/Src/stm32l4xx_it.d \
 ./Core/Src/syscalls.d \

@@ -9,6 +9,6 @@
 #define ADDR_LUX 0x23 << 1;
 #define TAKE_MEASUREMENT 0x10;
 
-void Get_I2C_Value(void);
+void SunSensor(void);
 
 #endif

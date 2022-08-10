@@ -19,6 +19,9 @@ Core/Src/Boot.o: ../Core/Src/Boot.c \
  /home/pvl/Privat/stm32/Programmen/Frequency_generator/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h \
  /home/pvl/Privat/stm32/Programmen/Frequency_generator/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h \
  /home/pvl/Privat/stm32/Programmen/Frequency_generator/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h \
+ /home/pvl/Privat/stm32/Programmen/Frequency_generator/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_can.h \
+ /home/pvl/Privat/stm32/Programmen/Frequency_generator/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_crc.h \
+ /home/pvl/Privat/stm32/Programmen/Frequency_generator/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_crc_ex.h \
  /home/pvl/Privat/stm32/Programmen/Frequency_generator/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h \
  /home/pvl/Privat/stm32/Programmen/Frequency_generator/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h \
  /home/pvl/Privat/stm32/Programmen/Frequency_generator/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h \
@@ -33,7 +36,12 @@ Core/Src/Boot.o: ../Core/Src/Boot.c \
  /home/pvl/Privat/stm32/Programmen/Frequency_generator/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
  /home/pvl/Privat/stm32/Programmen/Frequency_generator/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
  /home/pvl/Privat/stm32/Programmen/Frequency_generator/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h \
- /home/pvl/Privat/stm32/Programmen/Frequency_generator/Core/Inc/FrequencyRead.h
+ /home/pvl/Privat/stm32/Programmen/Frequency_generator/Core/Inc/FrequencyRead.h \
+ /home/pvl/Privat/stm32/Programmen/Frequency_generator/Core/Inc/LUX.h \
+ /home/pvl/Privat/stm32/Programmen/Frequency_generator/Core/Inc/lm75.h \
+ /home/pvl/Privat/stm32/Programmen/Frequency_generator/Core/Inc/eeprom.h \
+ /home/pvl/Privat/stm32/Programmen/Frequency_generator/Core/Inc/pcf8563.h \
+ /home/pvl/Privat/stm32/Programmen/Frequency_generator/Core/Inc/CanTx.h
 
 /home/pvl/Privat/stm32/Programmen/Frequency_generator/Core/Inc/Boot.h:
 
@@ -75,6 +83,12 @@ Core/Src/Boot.o: ../Core/Src/Boot.c \
 
 /home/pvl/Privat/stm32/Programmen/Frequency_generator/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h:
 
+/home/pvl/Privat/stm32/Programmen/Frequency_generator/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_can.h:
+
+/home/pvl/Privat/stm32/Programmen/Frequency_generator/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_crc.h:
+
+/home/pvl/Privat/stm32/Programmen/Frequency_generator/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_crc_ex.h:
+
 /home/pvl/Privat/stm32/Programmen/Frequency_generator/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h:
 
 /home/pvl/Privat/stm32/Programmen/Frequency_generator/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h:
@@ -104,3 +118,13 @@ Core/Src/Boot.o: ../Core/Src/Boot.c \
 /home/pvl/Privat/stm32/Programmen/Frequency_generator/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h:
 
 /home/pvl/Privat/stm32/Programmen/Frequency_generator/Core/Inc/FrequencyRead.h:
+
+/home/pvl/Privat/stm32/Programmen/Frequency_generator/Core/Inc/LUX.h:
+
+/home/pvl/Privat/stm32/Programmen/Frequency_generator/Core/Inc/lm75.h:
+
+/home/pvl/Privat/stm32/Programmen/Frequency_generator/Core/Inc/eeprom.h:
+
+/home/pvl/Privat/stm32/Programmen/Frequency_generator/Core/Inc/pcf8563.h:
+
+/home/pvl/Privat/stm32/Programmen/Frequency_generator/Core/Inc/CanTx.h:
