@@ -3,7 +3,7 @@
 //------------------------------------------------
 
 extern SPI_HandleTypeDef hspi1;
-
+extern UART_HandleTypeDef huart2;
 //------------------------------------------------
 
 HAL_StatusTypeDef ret;
@@ -302,7 +302,6 @@ uint8_t NRF24L01_Send(uint8_t *pBuf)
       HAL_Delay(1);
       LED_OFF;
 
-  NRF24_WriteReg(STATUS, 0x20);
 
   }
 
@@ -319,7 +318,7 @@ uint8_t NRF24L01_Send(uint8_t *pBuf)
   regval = NRF24_ReadReg(OBSERVE_TX);
 
   NRF24L01_RX_Mode();
-  LED_OFF;
+//  LED_OFF;
   return regval;
 
 }
